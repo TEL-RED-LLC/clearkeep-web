@@ -12,7 +12,7 @@
     "disable_guests": false,
     "disable_login_language_selector": false,
     "disable_3pid_login": false,
-    "brand": "Riot",
+    "brand": "ClearKeep",
     "integrations_ui_url": "https://scalar.sinbadflyce.com/riot",
     "integrations_rest_url": "https://scalar.sinbadflyce.com/api/v1/scalar",
     "integrations_widgets_urls": ["https://scalar.sinbadflyce.com/widgets"],
