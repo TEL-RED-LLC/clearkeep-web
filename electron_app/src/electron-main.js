@@ -199,7 +199,7 @@ if (!gotLock) {
 }
 
 const launcher = new AutoLaunch({
-    name: vectorConfig.brand || 'Riot',
+    name: vectorConfig.brand || 'ClearKeep',
     isHidden: true,
     mac: {
         useLaunchAgent: true,
@@ -349,7 +349,7 @@ app.on('ready', () => {
     // Create trayIcon icon
     tray.create({
         icon_path: iconPath,
-        brand: vectorConfig.brand || 'Riot',
+        brand: vectorConfig.brand || 'ClearKeep',
     });
 
     mainWindow.once('ready-to-show', () => {
@@ -422,4 +422,4 @@ app.on('second-instance', (ev, commandLine, workingDirectory) => {
 // installer uses for the shortcut icon.
 // This makes notifications work on windows 8.1 (and is
 // a noop on other platforms).
-app.setAppUserModelId('com.squirrel.riot-web.Riot');
+app.setAppUserModelId('com.squirrel.ClearKeep');
