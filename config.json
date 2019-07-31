@@ -2,11 +2,7 @@
     "default_server_config": {
         "m.homeserver": {
             "base_url": "https://study.sinbadflyce.com",
-<<<<<<< HEAD
-            "server_name": "study.sinbadflyce.com"
-=======
             "server_name": "s.clearkeep.me"
->>>>>>> c6dc073e9ab02038e9e15d60e05ba9e7ff079074
         },
         "m.identity_server": {
             "base_url": "https://id.clearkeep.me"
