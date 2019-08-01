@@ -1,7 +1,7 @@
 {
     "default_server_config": {
         "m.homeserver": {
-            "base_url": "https://study.sinbadflyce.com",
+            "base_url": "https://s.clearkeep.me",
             "server_name": "s.clearkeep.me"
         },
         "m.identity_server": {
