@@ -22,3 +22,5 @@ electron/pub
 /matrix-react-sdk
 config.json
 electron_app/riot.im/config.json
+**/config.json
+*/**/config.json
