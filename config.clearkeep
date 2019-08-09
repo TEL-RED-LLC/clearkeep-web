@@ -1,0 +1,24 @@
+- Home Server
+Development: https://study.sinbadflyce.com
+Production: https://s.clearkeep.me
+
+- Identify Server
+Both development & production: https://id.clearkeep.me
+
+- Pusher Url
+Development: http://study.sinbadflyce.com:5000/_matrix/push/v1/notify
+Production: https://push.clearkeep.me/_matrix/push/v1/notify
+
+- Scalar Urls
+
+Development
+integrations_ui_url: "https://scalar.sinbadflyce.com/riot"
+integrations_rest_url: "https://scalar.sinbadflyce.com/api/v1/scalar"
+integrations_widgets_urls: ["https://scalar.sinbadflyce.com/widgets"]
+integrations_jitsi_widget_url: "https://scalar.sinbadflyce.com/widgets/jitsi"
+
+Production
+"integrations_ui_url": "https://scalar.clearkeep.me/riot",
+"integrations_rest_url": "https://scalar.clearkeep.me/api/v1/scalar",
+"integrations_widgets_urls": ["https://scalar.clearkeep.me/widgets"],
+"integrations_jitsi_widget_url": "https://scalar.clearkeep.me/widgets/jitsi",
