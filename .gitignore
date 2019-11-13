@@ -20,3 +20,4 @@ electron/pub
 /.tmp
 /matrix-js-sdk
 /matrix-react-sdk
+config.json

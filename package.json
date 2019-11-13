@@ -2,7 +2,6 @@
     "name": "ClearKeep",
     "productName": "ClearKeep",
     "main": "electron_app/src/electron-main.js",
-    "version": "1.3.24",
     "description": "A feature-rich client for Matrix.org",
     "author": "New Vector Ltd.",
     "repository": {
@@ -181,7 +180,9 @@
         "mac": {
             "category": "public.app-category.social-networking",
             "darkModeSupport": true,
-            "identity": null
+            "identity": null,
+            "bundleVersion": "1.0",
+            "bundleShortVersion": "1.3.25"
         },
         "win": {
             "target": {
