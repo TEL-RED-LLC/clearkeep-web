@@ -17,14 +17,14 @@ limitations under the License.
 'use strict';
 
 import React from 'react';
-import sdk from 'matrix-react-sdk/lib/index';
+// import sdk from 'matrix-react-sdk/lib/index';
 import SdkConfig from 'matrix-react-sdk/lib/SdkConfig';
 
 export default class VectorAuthPage extends React.PureComponent {
     static replaces = 'AuthPage'
 
     render() {
-        const AuthFooter = sdk.getComponent('auth.AuthFooter');
+        // const AuthFooter = sdk.getComponent('auth.AuthFooter');
 
         const brandingConfig = SdkConfig.get().branding;
         let backgroundUrl = "themes/riot/img/backgrounds/valley.jpg";
@@ -66,7 +66,7 @@ export default class VectorAuthPage extends React.PureComponent {
                         { this.props.children }
                     </div>
                 </div>
-                <AuthFooter />
+                {/* <AuthFooter /> */}
             </div>
         );
     }
